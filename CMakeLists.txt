@@ -6,9 +6,10 @@
 
 cmake_minimum_required(VERSION 3.14)
 
-project(MidiKraft-base-ui)
+project(MidiKraft-base-ci)
 
 # We need a little bit support for the JUCE library, and also want to put our own CMake helpers on the module path
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/third_party/juce-cmake/cmake" "${CMAKE_CURRENT_LIST_DIR}/cmake")
 
 add_subdirectory(MidiKraft-base)
+
