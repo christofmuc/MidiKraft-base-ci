@@ -1,17 +1,18 @@
 # Introduction
 
-[![Build status](https://ci.appveyor.com/api/projects/status/b1hxpghxadkuqakg?svg=true)](https://ci.appveyor.com/project/christofmuc/juce-util-ci)
+[![Build status](https://ci.appveyor.com/api/projects/status/52klm4799jyv2op6?svg=true)](https://ci.appveyor.com/project/christofmuc/midikraft-base-ci)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/b1hxpghxadkuqakg/branch/master?svg=true)](https://ci.appveyor.com/project/christofmuc/juce-util-ci/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/52klm4799jyv2op6/branch/master?svg=true)](https://ci.appveyor.com/project/christofmuc/midikraft-base-ci/branch/master)
 
-This is only a super-repository for the CI for my utility library [juce-utils](https://github.com/christofmuc/juce-utils). Go there for more details on the classes offered. This repository is only to build the library separately by the CI,
+
+This is only a super-repository for the CI for my utility library [MidiKraft-base](https://github.com/christofmuc/MidiKraft-base.git). Go there for more details on the classes offered. This repository is only to build the library separately by the CI,
 as I really want to avoid nested submodules in my projects. 
 
 ## Usage
 
 This repository allows us to build the juce-utils library independantly in an easy way. First checkout recursively:
 
-    git clone --recurse-submodules -j8 https://github.com/christofmuc/juce-util-ci.git
+    git clone --recurse-submodules -j8 https://github.com/christofmuc/MidiKraft-base-ci.git
 	
 Then use CMake to build the makefile for Windows (use other generators as you see fit):
 
