@@ -7,3 +7,6 @@
 [submodule "third_party/juce-cmake"]
 	path = third_party/juce-cmake
 	url = https://github.com/remymuller/juce-cmake.git
+[submodule "juce-utils"]
+	path = juce-utils
+	url = https://github.com/christofmuc/juce-utils.git
